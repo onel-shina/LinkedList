@@ -64,7 +64,6 @@ class MyTestCase(unittest.TestCase):
             linked_list.append(i)
             inpt.append(i)
 
-        inpt.sort()
         assert linked_list.to_list() == inpt
         assert linked_list.size() == len(inpt)
 
